@@ -4,13 +4,19 @@ layout: default
 
 <h2 id="code--ux--design--consult--content--ads"> CODE / UX / DESIGN / CONSULT / CONTENT / ADS <span>SYSTEM - WEBCOMMERCE - MOBILE</span></h2>
 
-### Nice, clean, reading!
+### OK, Jadi cara kerjanya
 
-Good clean read is set up with readability first in mind. Whatever you want to communicate here can be read easily, and without distraction. Of course, it's fully responsive, which means people can read it naturally on any phone, or tablet. Write it in markdown in <code>index.md</code> and get a beautifully published piece.
+Kita mulai dari ide anda! Kami sangat yakin ketika anda sampai pada halaman ini dalam diri anda sudah tercetus ide bisnis yang terus menerus anda pikirkan.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+*Keren juga ya kalau punya app yang bisa gini*
 
-> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+*Wah pasti oke nih punya toko online yang jual ini*
+
+dan beribu ide yang lain. Mungkin satu, dua waktu anda sudah menceritakan ke teman anda hingga kalian sepakat untuk menjadi partner atau istilahnya para *co-founder*.
+
+Tapi ide hanya sekedar angan saja, karena anda tidak bisa programming lah, anda bingung memulai dari mana lah, anda takut meninggalkan kerjaan lama andalah. Dan beragam 
+
+> "Ideas are cheap. A dime a dozen, as they say. It’s the implementation that’s important! The trick isn’t just to have a good business idea, but to actually create and work for it!
 
 ### With footnotes too!
 
