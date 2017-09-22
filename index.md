@@ -8,8 +8,7 @@ layout: default
 
 Kita mulai dari ide anda! Kami sangat yakin ketika anda sampai pada halaman ini dalam diri anda sudah tercetus ide bisnis yang terus menerus anda pikirkan.
 
-<div class="tenor-gif-embed" data-postid="8933976" data-share-method="host" data-width="100%" data-aspect-ratio="1.7913669064748199"><a href="https://tenor.com/view/igot-ideas-dreams-ideas-creative-daytime-divas-gif-8933976">Ideas GIF</a> from <a href="https://tenor.com/search/igotideas-gifs">Igotideas GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-
+<div class="tenor-gif-embed" data-postid="8933976" data-share-method="host" data-width="100%" data-aspect-ratio="1.7913669064748199"><a href="https://tenor.com/view/igot-ideas-dreams-ideas-creative-daytime-divas-gif-8933976">Ideas GIF</a> from <a href="https://tenor.com/search/igotideas-gifs">Igotideas GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script><br/>
 
 *"Keren juga ya kalau punya app yang bisa gini"*
 
@@ -24,11 +23,11 @@ Tapi ide hanya sekedar angan saja, karena anda tidak bisa programming lah, anda 
 ### Kami mungkin jawabannya
 Yap, kami mungkin jawabannya. Pengalaman kami 9 tahun di industri ini dengan niche membantu membangun startup atau SME. Kami mengerti masalah anda, kami mengerti kondisi keuangan anda yang baru memulai, kami mengerti apa saja yang anda butuhkan. Karena kami dulu juga sama memulai seperti anda.
 
-Anda masih belum berani melepaskan pekerjaan anda? delegasikan pembuatan project startup anda ke kami.
-
-Anda tidak mempunyai team I.T? Konsultasikan ke kami, kami akan buatkan untuk anda.
-
-Anda tidak bisa memasarkan? Kami training anda ke dunia digital marketing.
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-check-square"></i>Anda masih belum berani melepaskan pekerjaan anda? delegasikan pembuatan project startup anda ke kami.</li>
+  <li><i class="fa-li fa fa-check-square"></i>Anda tidak mempunyai team I.T? Konsultasikan ke kami, kami akan buatkan untuk anda.</li>
+  <li><i class="fa-li fa fa-check-square"></i>Anda tidak bisa memasarkan? Kami training anda ke dunia digital marketing.</li>
+</ul>
 
 Dan banyak service kami lainnya yang akan membantu terciptanya bisnis startup pertama anda.
 
