@@ -25,9 +25,9 @@ Tapi ide hanya sekedar angan saja, karena anda tidak bisa programming lah, anda 
 Yap, kami mungkin jawabannya. Pengalaman kami 9 tahun di industri ini dengan niche membantu membangun startup atau SME. Kami mengerti masalah anda, kami mengerti kondisi keuangan anda yang baru memulai, kami mengerti apa saja yang anda butuhkan. Karena kami dulu juga sama memulai seperti anda.
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-check-square"></i>Anda masih belum berani melepaskan pekerjaan anda? delegasikan pembuatan project startup anda ke kami.</li>
-  <li><i class="fa-li fa fa-check-square"></i>Anda tidak mempunyai team I.T? Konsultasikan ke kami, kami akan buatkan untuk anda.</li>
-  <li><i class="fa-li fa fa-check-square"></i>Anda tidak bisa memasarkan? Kami training anda ke dunia digital marketing.</li>
+  <li><i class="fa-li fa fa-check-square"></i>Anda masih belum berani melepaskan pekerjaan anda? delegasikan pembuatan project startup anda ke kami.<br/></li>
+  <li><i class="fa-li fa fa-check-square"></i>Anda tidak mempunyai team I.T? Konsultasikan ke kami, kami akan buatkan untuk anda.<br/></li>
+  <li><i class="fa-li fa fa-check-square"></i>Anda tidak bisa memasarkan? Kami training anda ke dunia digital marketing.<br/></li>
 </ul>
 
 Dan banyak service kami lainnya yang akan membantu terciptanya bisnis startup pertama anda.
