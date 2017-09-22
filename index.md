@@ -4,7 +4,7 @@ layout: default
 
 <h2 id="code--ux--design--consult--content--ads"> CODE / UX / DESIGN / CONSULT / CONTENT / ADS <span>SYSTEM - WEBCOMMERCE - MOBILE</span></h2>
 
-### OK, Jadi cara kerjanya
+### OK, Jadi begini cara kerjanya
 
 Kita mulai dari ide anda! Kami sangat yakin ketika anda sampai pada halaman ini dalam diri anda sudah tercetus ide bisnis yang terus menerus anda pikirkan.
 
