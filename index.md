@@ -55,6 +55,9 @@ Tidak seperti drama diatas, bersama kami anda bisa **fokus terhadap bisnis anda*
 
 ### S.W.A.M (System, Web, App, Mobile) Developer
 
+
+<div class="tenor-gif-embed" data-postid="4680550" data-share-method="host" data-width="100%" data-aspect-ratio="1.6711409395973154"><a href="https://tenor.com/view/typing-jim-carrey-jim-carrey-type-gif-4680550">Typing Jim Carrey GIF</a> from <a href="https://tenor.com/search/typing-gifs">Typing GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script><br/>
+
 Kami membantu anda untuk membangun project startup anda baik itu System Web App ataupun Mobile. Commerce non commerce, SaaS ataupun IOT. Team kami siap memberikan solusi terbaik dan terefisien untuk anda. Oh iya, we are **cloud ready**
 
 ### Marketing Advertising Activation
