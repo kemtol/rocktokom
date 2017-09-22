@@ -65,9 +65,9 @@ Setelah project anda launch, team digital marketing dan advertising kami siap un
 
 Berikut contoh beberapa video aktifasi produksi kami:
 
-Client: Maskoolin.com
-Project: Video Activation
-Campaign: Discover Your Style
+<small>Client: Maskoolin.com</small><br/>
+<small>Project: Video Activation</small><br/>
+<small>Campaign: Discover Your Style</small><br/>
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/Iml3Zvk8az0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
