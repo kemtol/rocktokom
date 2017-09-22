@@ -21,6 +21,7 @@ Tapi ide hanya sekedar angan saja, karena anda tidak bisa programming lah, anda 
 > "Ideas are cheap. A dime a dozen, as they say. It’s the implementation that’s important! The trick isn’t just to have a good business idea, but to actually create and work for it!
 
 ### Kami mungkin jawabannya
+
 Yap, kami mungkin jawabannya. Pengalaman kami 9 tahun di industri ini dengan niche membantu membangun startup atau SME. Kami mengerti masalah anda, kami mengerti kondisi keuangan anda yang baru memulai, kami mengerti apa saja yang anda butuhkan. Karena kami dulu juga sama memulai seperti anda.
 
 <ul class="fa-ul">
@@ -33,41 +34,26 @@ Dan banyak service kami lainnya yang akan membantu terciptanya bisnis startup pe
 
 ### Anda bisa fokus ke bisnis anda
 
-Simply add the following line anywhere in your markdown:
+Oke, mungkin anda sudah kemana arah penawaran kami. Anda mungkin bertanya pasti mahal? *Worry not*, harga kami sebanding dengan resiko anda merekruit programmer, designer dan digital marketer.
 
-<pre><code>{% raw  %}
-{% include sharing.html %}
-{% endraw %}
-</code></pre>
+Tahukah anda seorang programmer *fresh graduate* sekarang di harga setidaknya Rp 4.500.000 per bulannya dan above Rp 10.000.000 per bulan untuk 3-4 tahun pengalaman.
 
-and get a nice responsive sharing ribbon.
+*UX Designer*? jangan kaget jika mereka di angka Rp 4.000.000 per bulan untuk *fresh graduate*
 
-{% include sharing.html %}
+*System admin?*
 
-Add this at the bottom, or the top, or between every other paragraph if you're desprate for social validation.
+*Content creator?*
 
-Just remember to customize the buttons to fit your url in the `_includes/sharing.html` file. These buttons are made available and customizable by the good folks at kni-labs. See the documentation at [https://github.com/kni-labs/rrssb](https://github.com/kni-labs/rrssb) for more information.
+*Digital marketer?*
 
-### Font awesome is also included
+Mungkin anda harus mengeluarkan setidaknya 20.000.000 per bulan untuk team yang proper dalam pengembangan. Belum lagi anda harus dipusingkan dengan jaminan kesehatan, asuransi, jaminan hari tua, inproduktifitas, dll.
 
-<i class="fa fa-quote-left fa-3x fa-pull-left fa-border"></i> Now you can use all the cool icons you want! [Font Awesome](http://fontawesome.io) is indeed awesome. But wait, you don't need this sweetness and you don't want that little bit of load time from the font awesome css? No problem, just disable it in the `config.yml` file, and it won't be loaded.
+Tidak seperti drama diatas, bersama kami anda bisa **fokus terhadap bisnis anda*
 
-<ul class="fa-ul">
-  <li><i class="fa-li fa fa-check-square"></i>you can make lists...</li>
-  <li><i class="fa-li fa fa-check-square-o"></i>with cool icons like this,</li>
-  <li><i class="fa-li fa fa-spinner fa-spin"></i>even ones that move!</li>
-</ul>
+### S.W.A.M (System, Web, App, Mobile) Developer
 
-If you need them, you can stick any of the [605 icons](http://fontawesome.io/icons/) anywhere, with any size you like. ([See documentation](http://fontawesome.io/examples/))
+Kami membantu anda untuk membangun project startup anda baik itu System Web App ataupun Mobile. Commerce non commerce, SaaS ataupun IOT. Team kami siap memberikan solusi terbaik dan terefisien untuk anda. Oh iya, we are **cloud ready**
 
-<i class="fa fa-building"></i>&nbsp;&nbsp;<i class="fa fa-bus fa-lg"></i>&nbsp;&nbsp;<i class="fa fa-cube fa-2x"></i>&nbsp;&nbsp;<i class="fa fa-paper-plane fa-3x"></i>&nbsp;&nbsp;<i class="fa fa-camera-retro fa-4x">
+### Marketing Advertising Activation
 
-### Add images to make your point
-
-Images play nicely with this template as well. Add diagrams or charts to make your point, and the template will fit them in appropriately.
-
-<img src="images/hello.svg" alt="sample image">
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Thanks to [Shu Uesengi](https://github.com/chibicode) for inspiring and providing the base for this template with his excellent work, [solo](https://github.com/chibicode).
+Setelah project anda launch, team digital marketing dan advertising kami siap untuk membantu anda mendapatkan traksi di pasar. Baik dari segi *content creation* (text, sound & video) ataupun *direct advertising.*
