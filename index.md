@@ -63,8 +63,16 @@ Kami membantu anda untuk membangun project startup anda baik itu System Web App 
 
 Setelah project anda launch, team digital marketing dan advertising kami siap untuk membantu anda mendapatkan traksi di pasar. Baik dari segi *content creation* (text, sound & video) ataupun *direct advertising.*
 
+Berikut contoh beberapa video aktifasi produksi kami:
+
+Client: Maskoolin.com
+Project: Video Activation
+Campaign: Discover Your Style
+
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/Iml3Zvk8az0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
+
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/dC6QVzU7-yQ?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+
 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/V4Or7tK0Uw8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
