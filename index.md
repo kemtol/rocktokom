@@ -25,9 +25,9 @@ Tapi ide hanya sekedar angan saja, karena anda tidak bisa programming lah, anda 
 Yap, kami mungkin jawabannya. Pengalaman kami 9 tahun di industri ini dengan niche membantu membangun startup atau SME. Kami mengerti masalah anda, kami mengerti kondisi keuangan anda yang baru memulai, kami mengerti apa saja yang anda butuhkan. Karena kami dulu juga sama memulai seperti anda.
 
 <ul class="fa-ul">
-  <li><i class="fa-li fa fa-check-square"></i>Anda masih belum berani melepaskan pekerjaan anda? delegasikan pembuatan project startup anda ke kami.<br/></li>
-  <li><i class="fa-li fa fa-check-square"></i>Anda tidak mempunyai team I.T? Konsultasikan ke kami, kami akan buatkan untuk anda.<br/></li>
-  <li><i class="fa-li fa fa-check-square"></i>Anda tidak bisa memasarkan? Kami training anda ke dunia digital marketing.<br/></li>
+  <li><i class="fa-li fa fa-check-square"></i>Anda masih belum berani melepaskan pekerjaan anda? delegasikan pembuatan project startup anda ke kami.<br/><br/></li>
+  <li><i class="fa-li fa fa-check-square"></i>Anda tidak mempunyai team I.T? Konsultasikan ke kami, kami akan buatkan untuk anda.<br/><br/></li>
+  <li><i class="fa-li fa fa-check-square"></i>Anda tidak bisa memasarkan? Kami training anda ke dunia digital marketing.<br/><br/></li>
 </ul>
 
 Dan banyak service kami lainnya yang akan membantu terciptanya bisnis startup pertama anda.
@@ -36,16 +36,13 @@ Dan banyak service kami lainnya yang akan membantu terciptanya bisnis startup pe
 
 Oke, mungkin anda sudah kemana arah penawaran kami. Anda mungkin bertanya pasti mahal? *Worry not*, harga kami sebanding dengan resiko anda merekruit programmer, designer dan digital marketer.
 
-Tahukah anda seorang programmer *fresh graduate* sekarang di harga setidaknya Rp 4.500.000 per bulannya dan above Rp 10.000.000 per bulan untuk 3-4 tahun pengalaman.
-
-*UX Designer*? jangan kaget jika mereka di angka Rp 4.000.000 per bulan untuk *fresh graduate*
-
-*System admin?*
-
-*Content creator?*
-
-*Digital marketer?*
-
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-check-square"></i>Tahukah anda seorang programmer *fresh graduate* sekarang di harga setidaknya Rp 4.500.000 per bulannya dan above Rp 10.000.000 per bulan untuk 3-4 tahun pengalaman.<br/><br/></li>
+  <li><i class="fa-li fa fa-check-square"></i>*UX Designer*? jangan kaget jika mereka di angka Rp 4.000.000 per bulan untuk *fresh graduate*<br/><br/></li>
+  <li><i class="fa-li fa fa-check-square"></i>*System admin?*<br/><br/></li>
+  <li><i class="fa-li fa fa-check-square"></i>*Content creator?*<br/><br/></li>
+  <li><i class="fa-li fa fa-check-square"></i>*Digital marketer?*<br/><br/></li>
+</ul>
 Mungkin anda harus mengeluarkan setidaknya 20.000.000 per bulan untuk team yang proper dalam pengembangan. Belum lagi anda harus dipusingkan dengan jaminan kesehatan, asuransi, jaminan hari tua, inproduktifitas, dll.
 
 Tidak seperti drama diatas, bersama kami anda bisa **fokus terhadap bisnis anda*
