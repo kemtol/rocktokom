@@ -10,9 +10,10 @@ Kita mulai dari ide anda! Kami sangat yakin ketika anda sampai pada halaman ini 
 
 <div class="tenor-gif-embed" data-postid="8933976" data-share-method="host" data-width="100%" data-aspect-ratio="1.7913669064748199"><a href="https://tenor.com/view/igot-ideas-dreams-ideas-creative-daytime-divas-gif-8933976">Ideas GIF</a> from <a href="https://tenor.com/search/igotideas-gifs">Igotideas GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
-*Keren juga ya kalau punya app yang bisa gini*
 
-*Wah pasti oke nih punya toko online yang jual ini*
+*"Keren juga ya kalau punya app yang bisa gini"*
+
+*"Wah pasti oke nih punya toko online yang jual ini"*
 
 dan beribu ide yang lain. Mungkin satu, dua waktu anda sudah menceritakan ke teman anda hingga kalian sepakat untuk menjadi partner atau istilahnya para *co-founder*.
 
