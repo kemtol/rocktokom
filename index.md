@@ -71,13 +71,13 @@ Berikut contoh beberapa video aktifasi produksi kami:
 <small>Project: Video Activation</small><br/>
 <small>Campaign: Discover Your Style</small><br/><br/>
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/dC6QVzU7-yQ?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><br/>
-<small>Client: Maskoolin.com</small>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/dC6QVzU7-yQ?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<small>Client: Maskoolin.com</small><br/>
 <small>Project: Video Activation</small><br/>
 <small>Campaign: Discover Your Style</small><br/><br/>
 
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/V4Or7tK0Uw8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><br/>
-<small>Client: Maskoolin.com</small>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/V4Or7tK0Uw8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+<small>Client: Maskoolin.com</small><br/>
 <small>Project: Video Activation</small><br/>
 <small>Campaign: Discover Your Style</small><br/><br/>
