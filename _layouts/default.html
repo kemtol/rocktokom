@@ -51,7 +51,7 @@
     h2.h2-front-page > span{display: block;font-size: 1.24rem;margin-top: 2rem;font-weight: bold;}
     
     #landing--page{max-width:1200px;margin:auto}
-    #landing--page > div:after{content: '';display: block;clear: both;}
+    #landing--page > div:after, .clearfix:after{content: '';display: block;clear: both;}
     #landing--page .lp{float:left;width:33.3%;padding:0.5rem;box-sizing:border-box;margin-bottom:4rem}
     #landing--page .lp > div{
       background: #312783;
@@ -74,7 +74,6 @@
       padding: 2rem;
       box-sizing: border-box;
     }
-    
     #landing--page--2 > div > span.bx, #landing--page--2 > div > span.by{
       display: inline-block;
       font-family: georgia;
@@ -82,15 +81,27 @@
       color: #fff;
     }
     #landing--page--2 > div > span.bx{font-style:italic;font-size:3rem}
-    
     #landing--page--2 > div > hr{
       border-bottom: 6px solid #fff;
       width: 4%;
       text-align: center;
       display: inline-block;
     }
-    
     #landing--page--2 .perks, #landing--page--2 .btn-wa{width:100%;max-width:1200px;margin:auto}
+    
+    #landing--page--3{
+      margin-bottom:6rem;
+      padding-bottom:6rem;
+      box-shadow:5px 5px 5px #ddd;
+    }
+    
+    #landing--page--3 > .lp3a{
+      width:100%;
+      max-width:1200px;
+    }
+    
+    #landing--page--3 > .lp3a .lp3b-l{float:left;width:30%;}
+    #landing--page--3 > .lp3a .lp3b-r{float:left;width:70%;}
     
     ul.perks{
       padding: 0;
@@ -226,10 +237,10 @@
     
     <div id="landing--page--3">
       <h2 class="h2-front-page">SIAPA KAMI<span>DAN KENAPA KAMI HADIR UNTUK ANDA</span></h2>
-      <div class="lp3a">
+      <div class="lp3a clearfix">
         <div class="lp3b-l">
           <img src="/images/konsultasi-bangun-startup.jpg" />
-        <div/>
+        </div>
         <blockquote class="lp3b-r">
           “Pendekatan kami berbeda,
           Kami percaya mimpi anda
