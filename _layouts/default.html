@@ -74,8 +74,27 @@
       font-size:0.9rem;
     }
     
-    #landing--page--2{
-      background:url("../images/bg-rocktokom-promo.jpg") no-repeat;
+    #landing--page--2 > div{
+      width: 1200px;
+      margin: auto;
+      background: url(../images/bg-rocktokom-promo.jpg) no-repeat 50% 50%;
+      text-align: center;
+      padding: 2rem;
+      box-sizing: border-box;
+    }
+    
+    #landing--page--2 > div > span.bx, #landing--page--2 > div > span.by{
+      display: inline-block;
+      font-family: georgia;
+      font-size: 2.25rem;
+      color: #fff;
+    }
+    
+    #landing--page--2 > div > hr{
+      border-bottom: 6px solid #fff;
+      width: 4%;
+      text-align: center;
+      display: inline-block;
     }
     
     @media screen and (max-width: 959px) {
@@ -172,8 +191,10 @@
     <div id="landing--page--2">
       <div>
         <span class="bx">Rp 4.900.000,- /Month</span>
+        <br/>
         <hr/>
-        <span class="bx">
+        <br/>
+        <span class="by">
           Consulting (Tech, SEO)<br/>
           Web Programming<br/>
           UX Design<br/>
