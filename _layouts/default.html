@@ -153,8 +153,8 @@
     @media screen and (max-width: 959px) {
       blockquote{margin-left:0}
       
-      #landing--page{width:100%;overflow-x:scroll}
-      #landing--page > div{width: 960px;}
+      #landing--page, #landing--page--4 > div{width:100%;overflow-x:scroll}
+      #landing--page > div, #landing--page--4 > div > div.clearfix{width: 960px;}
       #landing--page .lp > div{font-size:1.75rem;padding:2rem 2rem}
       #landing--page .lp > div > span.bl{height: 12rem}
       
@@ -292,15 +292,18 @@
       </div>
       <a href="https://api.whatsapp.com/send?phone=6283890722797&text=Halo%20mau%20info%20donk" class="btn-wa"><img src="/images/fa-whatsapp_24_0_ffffff_none.png"> LETS TALK ON WA</a>
     </div>
+    
     <div id="landing--page--4">
       <h2 class="h2-front-page">APA YANG KAMI KERJAKAN<span>TEPAT GUNA</span></h2>
-      <div class="clearfix">
-          <div class="lp4">
-            <img src="{{ site.baseurl }}/images/portfolio-ecommerce.png" />
-          </div>
-          <div class="lp4">
-            <img src="{{ site.baseurl }}/images/portfolio-kpi-report.png" />
-          </div>
+      <div>
+        <div class="clearfix">
+            <div class="lp4">
+              <img src="{{ site.baseurl }}/images/portfolio-ecommerce.png" />
+            </div>
+            <div class="lp4">
+              <img src="{{ site.baseurl }}/images/portfolio-kpi-report.png" />
+            </div>
+        </div>
       </div>
     </div>
     
