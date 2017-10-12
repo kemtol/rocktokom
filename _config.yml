@@ -18,15 +18,13 @@ pagination: 5
 font-awesome-include: true
 markdown: kramdown
 gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-
-# Exclude these files from your production _site
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-redirect-from
+- jekyll-seo-tag
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- README.md
+- CNAME
