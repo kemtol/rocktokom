@@ -1,6 +1,8 @@
 ---
 title: Memulai Bisnis Startup
+
 timezone: UTC
+
 collections:
   posts:
     title: Posts
@@ -8,21 +10,33 @@ collections:
   uploads:
     title: Uploads
     output: true
+    
 tag_text: Wujudkan ide bisnis startup anda sekarang juga.
+
 description: Startup adalah usaha rintisan yang sebagian besar berbasis teknologi.
   Istilah startup mulai populer 10 tahun terakhir dengan mulai berkembangnya perusahaan-perusahaan
   teknologi rintisan seperti facebook, google, dan instagram menguasai pasar.
+  
 url: http://www.rocktokom.co
+
 baseurl: ''
+
 pagination: 5
+
 paginate_path: "/blog/page:num/"
+
 font-awesome-include: true
+
 markdown: kramdown
+
+excerpt_separator: <!--more-->
+
 gems:
 - jekyll-sitemap
 - jekyll-feed
 - jekyll-redirect-from
 - jekyll-seo-tag
+
 exclude:
 - Gemfile
 - Gemfile.lock
