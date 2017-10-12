@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 ### OK, Jadi begini cara kerjanya
