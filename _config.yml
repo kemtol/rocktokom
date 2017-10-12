@@ -14,7 +14,7 @@ description: Startup adalah usaha rintisan yang sebagian besar berbasis teknolog
   teknologi rintisan seperti facebook, google, dan instagram menguasai pasar.
 url: http://www.rocktokom.co
 baseurl: ''
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 font-awesome-include: true
 markdown: kramdown
 gems:
