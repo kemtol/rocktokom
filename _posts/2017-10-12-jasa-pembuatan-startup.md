@@ -1,10 +1,8 @@
 ---
-title: Jasa Pembuatan Startup
+title: OK, Jadi begini cara kerjanya
 date: 2017-10-12 00:00:00 Z
 layout: post
 ---
-
-### OK, Jadi begini cara kerjanya
 
 Kita mulai dari ide anda! Kami sangat yakin ketika anda sampai pada halaman ini dalam diri anda sudah tercetus ide bisnis yang terus menerus anda pikirkan.
 
