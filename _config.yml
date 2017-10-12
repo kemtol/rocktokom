@@ -14,7 +14,19 @@ description: Startup adalah usaha rintisan yang sebagian besar berbasis teknolog
   teknologi rintisan seperti facebook, google, dan instagram menguasai pasar.
 url: http://www.rocktokom.co
 baseurl: ''
+pagination: 5
 font-awesome-include: true
 markdown: kramdown
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+
+# Exclude these files from your production _site
 exclude:
-- README.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
