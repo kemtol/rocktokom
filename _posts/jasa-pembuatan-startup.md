@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ### OK, Jadi begini cara kerjanya
 
 Kita mulai dari ide anda! Kami sangat yakin ketika anda sampai pada halaman ini dalam diri anda sudah tercetus ide bisnis yang terus menerus anda pikirkan.
