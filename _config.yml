@@ -1,6 +1,13 @@
 ---
 title: Memulai Bisnis Startup
 timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 tag_text: Wujudkan ide bisnis startup anda sekarang juga.
 description: Startup adalah usaha rintisan yang sebagian besar berbasis teknologi.
   Istilah startup mulai populer 10 tahun terakhir dengan mulai berkembangnya perusahaan-perusahaan
