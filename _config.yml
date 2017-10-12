@@ -15,6 +15,7 @@ description: Startup adalah usaha rintisan yang sebagian besar berbasis teknolog
 url: http://www.rocktokom.co
 baseurl: ''
 pagination: 5
+paginate_path: "/blog/page:num/"
 font-awesome-include: true
 markdown: kramdown
 gems:
