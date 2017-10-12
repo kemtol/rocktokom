@@ -3,13 +3,33 @@ layout: default
 ---
 
 <div class="posts">
-{% for post in site.posts %}
-  {% if post.categories contains 'postcategory' %}
-    <h1>Do nothing</h1>
+  {% for post in paginator.posts %}
+    <article class="post">
+
+      <h2 class="posts-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
+
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous">Previous</a>
   {% else %}
-    <h2>{{ post.title }}</h2>
+    <span class="previous">Previous</span>
   {% endif %}
-{% endfor %}
+  <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
 </div>
 
 
