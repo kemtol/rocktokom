@@ -1,4 +1,6 @@
 ---
+title: Jasa Pembuatan Startup
+date: 2017-10-12 00:00:00 Z
 layout: page
 ---
 
