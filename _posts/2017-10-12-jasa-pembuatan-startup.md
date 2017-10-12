@@ -19,6 +19,7 @@ Dan beribu ide yang lain. Mungkin satu, dua waktu anda sudah menceritakan ke tem
 Tapi ide hanya sekedar angan saja, karena anda tidak bisa programming lah, anda bingung memulai dari mana lah, anda takut meninggalkan kerjaan lama andalah. Dan beragam alasan lainnya.
 
 > "Ideas are cheap. A dime a dozen, as they say. It’s the implementation that’s important! The trick isn’t just to have a good business idea, but to actually create and work for it!
+<!--more-->
 
 ### Kami mungkin jawabannya
 
