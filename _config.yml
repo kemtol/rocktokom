@@ -23,7 +23,10 @@ gems:
 - jekyll-sitemap
 - jekyll-feed
 - jekyll-redirect-from
-- jekyll-seo-tag - jekyll-paginate
+- jekyll-seo-tag
+- jekyll-paginate
+
+
 exclude:
 - Gemfile
 - Gemfile.lock
