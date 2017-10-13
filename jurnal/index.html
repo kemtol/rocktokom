@@ -6,11 +6,11 @@ layout: page
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
-    <h1 class="post-title">
+    <h2 class="post-title" style="font-family: georgia;font-size: 3rem;font-weight: 500;text-transform: capitalize;background: url(http://www.rocktokom.co/images/sketch-line-green.svg) no-repeat bottom;background-size: 50% 0.75rem;margin-bottom: 5rem;padding-bottom: 2rem;">
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
       </a>
-    </h1>
+    </h2>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
     {% if post.tags %} | 
