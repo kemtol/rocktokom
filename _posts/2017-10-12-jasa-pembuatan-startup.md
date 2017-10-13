@@ -2,10 +2,10 @@
 title: OK, Jadi begini cara kerjanya
 date: 2017-10-12 00:00:00 Z
 categories:
-- jurnal
+- development
 tags:
 - startup
-- dev
+- how
 layout: post
 ---
 
