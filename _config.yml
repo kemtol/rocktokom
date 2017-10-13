@@ -18,13 +18,12 @@ excerpt_separator: "<!--more-->"
 font-awesome-include: true
 markdown: kramdown
 paginate: 5
-paginate_path: '/blog/page:num'
+paginate_path: "/blog/page:num"
 gems:
 - jekyll-sitemap
 - jekyll-feed
 - jekyll-redirect-from
-- jekyll-seo-tag
-  - jekyll-paginate
+- jekyll-seo-tag - jekyll-paginate
 exclude:
 - Gemfile
 - Gemfile.lock
