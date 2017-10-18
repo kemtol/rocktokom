@@ -19,9 +19,10 @@ layout: page
     {% endfor %}
     {% endif %}
 
-    <article>
-      {{ post.excerpt | markdownify }}
-    <article>
+    <div>
+      {{ post.excerp }}
+    </div>
+    
     <div class="post-more">
       {% if site.disqus_short_name %}
       <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread"> <i class="fa fa-comments" aria-hidden="true"></i>Comment</a>&nbsp;
