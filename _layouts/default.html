@@ -74,10 +74,27 @@
     h2.post-title > a:hover{text-decoration:none}
     
     
-    #landing--page{max-width:1200px;margin:auto}
-    #landing--page > div:after, .clearfix:after{content: '';display: block;clear: both;}
-    #landing--page .lp{float:left;width:33.3%;padding:0.5rem;box-sizing:border-box;margin-bottom:4rem}
-    #landing--page .lp > div{
+    #landing--page,
+    #landing--page--6{
+      max-width:1200px;margin:auto
+    }
+    #landing--page > div:after,
+    #landing--page--6 > div:after,
+    .clearfix:after{
+      content: '';
+      display: block;
+      clear: both;
+    }
+    #landing--page .lp,
+    #landing--page--6 .lp{
+      float:left;
+      width:33.3%;
+      padding:0.5rem;
+      box-sizing:border-box;
+      margin-bottom:4rem
+    }
+    #landing--page .lp > div,
+    #landing--page--6 .lp > div{
       background: #312783;
       font-family: georgia;
       font-size: 2.25rem;
@@ -85,8 +102,17 @@
       padding: 4rem 2rem;
       position:relative;
     }
-    #landing--page .lp > div > span.bl{height: 15rem;display: block;}
-    #landing--page .lp > div > hr{width: 2rem;border-bottom: 6px solid #fff;}
+    #landing--page .lp > div > span.bl,
+    #landing--page--6 .lp > div > span.bl{
+      height: 15rem;
+      display: block;
+    }
+    #landing--page .lp > div > hr,
+    #landing--page--6 .lp > div > hr{
+      width: 2rem;
+      border-bottom: 6px solid #fff;
+    }
+
     
     #landing--page--2{margin-bottom:6rem}
     #landing--page--2 > div{
