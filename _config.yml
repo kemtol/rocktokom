@@ -141,7 +141,7 @@ defaults:
     path: ''
   values:
     layout: default
-favicon: "/uploads/favicon.png"
+favicon: "/uploads/rockto-favico.png"
 name: rocktokom.co
 tagname: The first coworking space and coliving operator in Jakarta, Indonesia.
 description: The first coworking space and coliving operator in Jakarta, Indonesia.
