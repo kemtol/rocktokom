@@ -1,0 +1,27 @@
+<section class="pb-4 pb-sm-5 mb-4 mb-sm-5 clearfix">
+  <div class="container-fluid pt-5 mt-5">
+      <div class="row">
+          <div class="col-12">
+              <div class="mb-50">
+                <h4>DIVERSE FACES OF EXPERTS WHO GRACED OUR EVENTS</h4>
+                <h2 class="display-3">OUR SPEAKERS + MENTORS</h2>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container-fluid pb-5 mb-5">
+      <div class="row">
+      {% assign items = site.members  | sort:"date" | reverse %}
+      {% for item in items %}
+      {% if item.categories contains "speakers" %}
+        <div class="col-lg-2 col-md-3 col-6 mb-4">
+            <span class="d-block mb-3" style="border-radius: 50%;overflow:hidden;">
+              <img class="img-fluid" src="{{site.baseurl}}{{item.image}}" alt="">
+            </span>
+            <h4 class="text-center">{{item.title | upcase }}</h4>
+        </div>
+      {% endif %}
+      {% endfor %}
+      </div>
+  </div>
+</section>

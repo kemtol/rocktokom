@@ -1,0 +1,63 @@
+<header class="header_area">
+    <div class="classy-nav-container breakpoint-off d-flex align-items-center justify-content-between">
+        <!-- Classy Menu -->
+        <nav class="classy-navbar container-fluid d-block" id="essenceNav">
+            <!-- Logo -->
+            <a href="#footerInquiry" class="nav-brand d-none d-lg-block float-sm-left" style="color: #fff;font-size: 16px;letter-spacing: 4px;font-weight: 100;padding-top:8px;"><img src="{{site.baseurl}}/img/core-img/triangle-header.png" style="height: 14px;position: relative;top: -1px;" /> CLICK FOR INQUIRY.</a>
+            <a class="nav-brand float-lg-right" href="{{site.url}}"><img src="{{site.baseurl}}/img/core-img/logo2.png" alt=""></a>
+            <!-- Navbar Toggler -->
+            <div class="classy-navbar-toggler float-right">
+                <span class="navbarToggler"><span></span><span></span><span></span></span>
+            </div>
+            <!-- Menu -->
+            <div class="classy-menu float-right clearfix d-block d-sm-none">
+                <!-- close btn -->
+                <div class="classycloseIcon d-none">
+                    <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                </div>
+                <!-- Nav Start -->
+                <div class="classynav">
+                    <ul>
+                        <li>
+                          <a href="{{site.url}}">
+                            Home
+                          </a>
+                        </li>
+                        {% for topmenu in site.nav %}
+                            <li>
+                                <a href="{{site.baseurl}}{{ topmenu.permalink }}">
+                                    {{ topmenu.title }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <!-- Nav End -->
+            </div>
+        </nav>
+
+        <!-- Header Meta Data -->
+        <div class="header-meta d-none clearfix justify-content-end">
+            <!-- Search Area -->
+            <div class="search-area">
+                <form action="#" method="post">
+                    <input type="search" name="search" id="headerSearch" placeholder="Type for search" style="background-color: transparent;">
+                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </form>
+            </div>
+            <!-- Favourite Area -->
+            <div class="favourite-area">
+                <a href="#"><img src="{{ site.baseurl }}/img/core-img/heart.svg" alt=""></a>
+            </div>
+            <!-- User Login Info -->
+            <div class="user-login-info">
+                <a href="#"><img src="{{ site.baseurl }}/img/core-img/user.svg" alt=""></a>
+            </div>
+            <!-- Cart Area -->
+            <div class="cart-area">
+                <a href="#" id="essenceCartBtn"><img src="{{ site.baseurl }}/img/core-img/bag.svg" alt=""> <span>3</span></a>
+            </div>
+        </div>
+
+    </div>
+</header>

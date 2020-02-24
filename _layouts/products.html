@@ -1,0 +1,146 @@
+---
+layout: default
+---
+
+<style>
+    .hero-content{
+        visibility: hidden;
+    }
+
+    .line-rotate{
+        width: 100%;
+        height: 1px;
+        margin-top:5rem;
+        margin-bottom:5rem;
+        transform: rotate(1.5deg);
+        background-color: black;
+    }
+</style>
+
+{% assign current_cat = page.permalink | split: "/" | last %}
+{% if current_cat != "service" %}
+    {% assign products = site.product | where: "categories", current_cat | sort:"date" | reverse %}
+{% else %}
+    {% assign products = site.product | sort:"date" | reverse %}
+{% endif %}
+
+{% include jumbotron.html %}
+
+<section class="pt-4 pt-sm-5 pb-4 pb-sm-5 mt-4 mt-sm-5 mb-4 mb-sm-5 ">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            {{content}}
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <h4 class="col-12 mb-4">CO-WORKING SPACES + SERVICED OFFICES</h4>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="products-slides owl-carousel">
+                {% assign items = site.product %}
+                {% for item in items %}
+                      {% if item.categories contains "office" %}
+                      <div class="single-product-wrapper">
+                        <!-- Product Image -->
+                        <a href="{{site.baseurl}}{{item.permalink}}" class="d-block product-img w-100 float-right">
+                            <img src="{{site.baseurl}}{{item.image[0]}}" alt=""  class="img-fluid">
+                            <!-- Hover Thumb -->
+                            <img class="hover-img img-fluid" src="{{site.baseurl}}{{item.image[0]}}" alt="">
+                        </a>
+                        
+                        <!-- Product Description -->
+                        <div class="product-description d-block w-100 h-100 float-left">
+                            <a href="{{site.baseurl}}{{ item.permalink }}">
+                                <img src="{{ site.baseurl }}/img/core-img/logo.png" class="w-50 mb-4 d-none" alt="">
+                                <h6 class="mb-4">{{ item.title }}</h6>
+                                <address>{{item.address}}</address>
+                                <span class="mb-4">More details...</span>
+                                <img src="{{site.baseurl}}{{item.image[1]}}" alt="" class="d-none w-100 pr-2">
+                            </a>
+                        </div>
+                        
+                      </div>
+                      {% endif %}
+                {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="line-rotate"></div>
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <h4 class="col-12 mb-4">CO-LIVING HOUSES</h4>
+        </div>
+        <div class="row">
+          <div class="col-12">
+              <div class="products-slides owl-carousel">
+                {% assign items = site.product %}
+                {% for item in items %}
+                      {% if item.categories contains "living" %}
+                        <div class="single-product-wrapper">
+                            <!-- Product Image -->
+                            <a href="{{site.baseurl}}{{item.permalink}}" class="d-block product-img w-100 float-right">
+                                <img src="{{site.baseurl}}{{item.image[0]}}" alt="" class="img-fluid">
+                                <!-- Hover Thumb -->
+                                <img class="hover-img img-fluid" src="{{site.baseurl}}{{item.image[0]}}" alt="">
+                            </a>
+                            
+                            <!-- Product Description -->
+                            <div class="product-description d-block w-100 h-100 float-left">
+                                <a href="{{site.baseurl}}{{ item.permalink }}">
+                                  <img src="{{ site.baseurl }}/img/core-img/logo.png" class="w-50 mb-4 d-none" alt="">
+                                  <h6 class="mb-4">{{ item.title }}</h6>
+                                  <address>{{item.address}}</address>
+                                  <span class="mb-4">More details..</span>
+                                  <img src="{{site.baseurl}}{{item.image[1]}}" alt="" class="d-none w-100 pr-2">
+                                </a>
+                            </div>
+                            
+                        </div>
+                      {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="line-rotate"></div>
+<section class="d-none">
+    <div class="container-fluid">
+        <div class="row">
+            <h4 class="col-12">CO-KITCHEN + FOOD MARKET</h4>
+        </div>
+        <div class="row">
+            {% assign items = site.product  | sort:"date" | reverse %}
+            {% for item in items %}
+                  {% if item.categories contains "kitchen" %}
+                    <div class="single-product-wrapper">
+                        <!-- Product Image -->
+                        <a href="{{site.baseurl}}{{item.permalink}}" class="d-block product-img w-100 float-right">
+                            <img src="{{site.baseurl}}{{item.image[0]}}" alt=""  class="h-100">
+                            <!-- Hover Thumb -->
+                            <img class="hover-img h-100" src="{{site.baseurl}}{{item.image[0]}}" alt="">
+                        </a>
+                        
+                        <!-- Product Description -->
+                        <div class="product-description d-block w-100 h-100 float-left">
+                            <a href="{{site.baseurl}}{{ item.permalink }}">
+                                <h6>{{ item.title }}</h6>
+                            </a>
+                        </div>
+                        
+                    </div>
+                  {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% include gallery-widget.html %}

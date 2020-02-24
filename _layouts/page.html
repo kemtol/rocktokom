@@ -2,9 +2,43 @@
 layout: default
 ---
 
-<div style="border-top: 1px solid #ccc;padding-top: 5rem;">
- <div class="container">
-  <!--<h3>{{ page.title }}</h3>-->
-  {{ content }}
-   </div>
-</div>
+<style>
+    .hero-content{
+        visibility: hidden;
+    }
+</style>
+
+{% include jumbotron.html %}
+
+<section class="pt-4 pt-sm-5 pb-4 pb-sm-5 mt-4 mt-sm-5 mb-4 mb-sm-5 ">
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 this-is-content" style="background-image:url({{site.baseurl}}{{page.content-bg-image}});background-size:{{page.content-bg-size}};background-repeat:{{page.content-bg-repeat}};background-position:{{page.content-bg-position}};{{page.content-inline-css}}">
+                {{content}}
+            </div>
+        </div>
+    </div>
+
+</section>
+
+{% if page.path == "_nav/about.markdown" %}
+    {% include milestone-widget.html %}
+{% endif %}
+
+{% if page.path == "_nav/meet-the-team.markdown" %}
+    {% include team-widget.html %}
+{% endif %}
+
+{% if page.path == "_nav/our-members.markdown" %}
+    {% include members-widget.html %}
+    {% include company-widget.html %}
+{% endif %}
+
+{% if page.path == "_nav/whats-on.markdown" %}
+    {% include events-widget.html %}
+    {% include speakers-widget.html %}
+    {% include deals-widget.html %}
+{% endif %}
+
+{% include gallery-widget.html %}

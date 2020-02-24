@@ -1,0 +1,80 @@
+<style>
+/* ---- grid ---- */
+.grid {}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+.grid-sizer,
+.grid-item {
+  width: 33%;
+}
+
+.grid-item {
+  float: left;
+  border: 5px solid #fff;
+}
+
+.grid-item--width2 { width:  40%; }
+.grid-item--width3 { width:  60%; }
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }
+
+@media only screen and (max-width: 767px) {
+  .grid-item {
+    width: 50%;
+  }
+  .grid-item.p-4{
+    padding:0.5rem!important;
+  }
+}
+
+</style>
+
+
+<section class="new_arrivals_area pt-4 pt-sm-5 pb-4 pb-sm-5 mt-4 mt-sm-5 mb-4 mb-sm-5 clearfix">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-12">
+              <div class="text-right mb-4 mb-sm-5">
+                <h4>HAPPENING(S) TO NOT BE MISSED OUT!</h4>
+                <h2 class="display-3">SAVE YOUR SEAT TO <br>OUR WELL ANTICIPATED EVENT!</h2>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <div class="grid">
+          <div class="grid-sizer"></div>
+          {% assign items = site.events  | sort:"date" | reverse %}
+          {% for item in items %}
+          <!-- Grid item -->
+          <div class="grid-item p-4">
+            <div class="grid-image mb-4">
+              <img src="{{item.image}}" class="img-fluid"  />
+            </div>
+            <div class="grid-description">
+              <a href="{{item.ticket-link}}">
+                <h6>{{item.title}}</h6>
+                <date class="d-block mb-3">{{item.event-date}}</date>
+                <address>{{item.location}}</address>
+                <strong style="color:dodgerblue">{{item.price}}</strong>
+              </a>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

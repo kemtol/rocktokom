@@ -1,0 +1,44 @@
+<section class="new_arrivals_area pt-4 pt-sm-5 pb-4 pb-sm-5 mt-4 mt-sm-5 mb-4 mb-sm-5 clearfix">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-12">
+              <div class="text-center mb-4 mb-sm-5">
+                <h4>STAY WELL, GET CONNECTED</h4>
+                <h2 class="display-3">WE CREATE AN ENGAGING ENVIRONMENT WITH A COLLABORATIVE SPIRIT.</h2>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-12">
+              <div class="popular-products-slides gallery-widget-slide owl-carousel">
+
+                    {% assign items = site.gallery  | sort:"date" | reverse %}
+                    {% for item in items %}
+                          {% if item.categories contains "homepage" %}
+                          <!-- Single Product -->
+                          <div class="single-product-wrapper p-4">
+                            <!-- Product Image -->
+                            <a href="{{item.permalink}}" class="d-block product-img">
+                                <img src="{{site.baseurl}}{{ item.image }}" alt="">
+                                <!-- Hover Thumb -->
+                                <img class="hover-img" src="{{site.baseurl}}{{ item.image}}" alt="">
+                                <!-- Product Description -->
+                                <div class="gallery-description position-absolute d-block p-4" style="background-color:{{item.bg-color}}">
+                                  <div class="a1 position-absolute" style="left:0;bottom:0;right: 0;">
+                                    <h6>{{ item.title }}</h6>
+                                    <author class="d-block">{{ item.author }}</author>
+                                  </div>
+                                </div>
+                            </a>
+                          </div>
+                          {% endif %}
+                    {% endfor %}
+                    
+              </div>
+          </div>
+      </div>
+  </div>
+</section>

@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<style>
+    .hero-content{
+        visibility: hidden;
+    }
+</style>
+
+{% include jumbotron.html %}
+
+<section class="pt-4 pt-sm-5 pb-4 pb-sm-5 mt-4 mt-sm-5 mb-4 mb-sm-5">
+
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-8">
+          <div class="row">
+          {% for post in site.posts %}
+            <div class="col-12 mb-4 mb-sm-5">
+              <div class="item">
+                <div class="item-title">
+                  <h2><a href="{{post.permalink}}">{{ post.title }}</a></h2>
+                  <p class="text-secondary mb-3" style="font-style: italic;font-family: georgia;">{{ page.date | date: "%B %e, %Y" }}</p>
+                </div>
+                <div class="featured-image"><img src="{{post.featured-image}}" class="img-fluid" /></div>
+                <div class="entry post">
+                  {{ post.excerpt }}
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+</section>

@@ -1,0 +1,28 @@
+<section class="pt-4 pt-sm-5 pb-4 pb-sm-5 mt-4 mt-sm-5 mb-4 mb-sm-5 clearfix">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-12">
+              <div class="mb-50">
+                <h4>THE LIST IS STILL GROWING</h4>
+                <h2 class="display-3">BE PART OF OUR WINNING NETWORK</h2>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-12 col-lg-10 offset-lg-1">
+            <div class="row">
+              {% assign companies = site.company  | sort:"date" | reverse %}
+              {% for company in companies %}
+                <div class="col-lg-2 col-md-3 col-6">
+                  <span class="d-block mb-4 h-100">
+                    <img class="img-fluid" src="{{site.url}}{{company.image}}" alt="">
+                  </span>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+      </div>
+  </div>
+</section>

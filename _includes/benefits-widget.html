@@ -1,0 +1,28 @@
+<!--<section class="pt-4 pt-sm-5 pb-4 pb-sm-5 mt-4 mt-sm-5 mb-4 mb-sm-5 clearfix">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-12">
+              <div class="text-center mb-4 mb-sm-5">
+                <h4>OUR BENEFITS</h4>
+                <h2 class="display-3">PERKS OF BEING WELLSOCIETY</h2>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+        {% assign items = site.master-data | where:"title","Benefit" | sort:"date" %}
+        {% for item in items %}
+          {% assign benefitz = item.benefits %}
+          {% for benefit in benefitz %}
+              <div class="col-4 col-lg-2">
+                <div class="text-center mb-4">
+                  <span style="border-radius:50%;overflow:hidden;display:inline-block">
+                    <img src="{{benefit[1]}}" class="img-fluid">
+                  </span>
+                </div>
+                <span class="d-block text-center">{{benefit[0]}}</span>
+              </div>
+          {% endfor %}
+        {% endfor %}
+      </div>
+  </div>
+</section>-->

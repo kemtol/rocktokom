@@ -1,0 +1,74 @@
+<section class="pb-4 pb-sm-5 mb-4 mb-sm-5">
+  <div class="row">
+    <div class="col-12 col-lg-8 offset-lg-2">
+      <h4 class="mb-5 text-center">HELLO FROM US</h4>
+    </div>
+    <div class="col-12 col-lg-8 offset-lg-2">
+      <div class="row">
+        <div class="col-8 offset-2">
+          <img src="{{page.intro-image}}" class="img-fluid mb-3">
+        </div>
+      
+        <div class="col-12 col-lg-8 offset-lg-2 text-center">
+          <h3 class="d-none text-center">{{page.intro-title}}</h3>
+          <p class="text-center" style="font-size:16px">{{page.intro-content}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-padding-10 clearfix grad-1">
+  <div class="container-fluid pt-5 mt-5">
+      <div class="row">
+          <div class="col-12">
+              <div class="mb-50">
+                <h4 style="color:#fff">SAY HI IF YOU MEET THEM</h4>
+                <h2 style="color:#fff" class="display-3">OUR "A" TEAM</h2>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="container-fluid pb-5 mb-5">
+      <div class="row">
+      {% assign teams = site.team  | sort:"date" | reverse %}
+      {% for team in teams %}
+        <div class="col-lg-2 col-md-3 col-6">
+          <a href="#" data-toggle="modal" data-target="#modal{{team.title}}" class="d-block mb-4 h-100 text-center">
+            <span class="d-block mb-3" style="border-radius: 50%;overflow:hidden;">
+              <img class="img-fluid" src="{{site.baseurl}}{{team.image}}" alt="">
+            </span>
+            <h4 style="color: #fff">{{team.title | upcase }}</h4>
+          </a>
+        </div>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="modal{{team.title}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog container-fluid" role="document">
+            <div class="modal-content row">
+              <div class="modal-header col-12 col-lg-8 offset-lg-2">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body col-12 col-lg-8 offset-lg-2">
+                <div class="row">
+                  <div class="col-4">
+                    <img class="img-fluid" src="{{site.baseurl}}{{team.image}}" alt="">
+                  </div>
+                  <div class="col-8">
+                    <h3 class="mb-3">{{team.title}}</h3>
+                    <h4 class="mb-4" style="letter-spacing: unset;color: dodgerblue;">{{team.position}}</h4>
+                    <p style="font-size:16px">{{team.content}}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+      </div>
+  </div>
+</section>

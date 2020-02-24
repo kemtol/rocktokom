@@ -1,30 +1,181 @@
 ---
-title: Memulai Bisnis Startup
-timezone: UTC
+title: Rocktokom
+timezone: Asia/Jakarta
 collections:
+  big-banner:
+    title: Big Banner
+    output: true
+  company:
+    title: Company
+    output: true
+  deals:
+    title: Deals
+    output: true
+  events:
+    title: Events
+    output: true
+  gallery:
+    title: Gallery
+    output: true
+  jumbotron:
+    title: Jumbotron
+    output: true
+  master-data:
+    title: Master Data
+    output: true
+  mediacoverage:
+    title: Media Coverage
+    output: true
+  members:
+    title: Members
+    output: true
+  nav:
+    title: Nav
+    output: true
   posts:
     title: Posts
+    output: true
+  product:
+    title: Product
+    output: true
+  team:
+    title: Team
     output: true
   uploads:
     title: Uploads
     output: true
-tag_text: Wujudkan ide bisnis startup anda sekarang juga.
-description: Startup adalah usaha rintisan yang sebagian besar berbasis teknologi.
-  Istilah startup mulai populer 10 tahun terakhir dengan mulai berkembangnya perusahaan-perusahaan
-  teknologi rintisan seperti facebook, google, dan instagram menguasai pasar.
-url: http://www.rocktokom.co
-baseurl: ''
-excerpt_separator: "<!--more-->"
-font-awesome-include: true
-markdown: kramdown
-paginate: 5
-paginate_path: "/jurnal/page:num"
+defaults:
+- scope:
+    path: ''
+    type: nav
+  values:
+    layout: products
+    permalink: "/product/"
+    image:
+    - "/uploads/bg-img.jpg"
+- scope:
+    path: ''
+    type: events
+  values:
+    layout: default
+    image: "/uploads/meatup-2019.jpeg"
+    event-date: ''
+    location: Type location of the event
+    price: Free
+    ticket-link: https://www.example.com
+- scope:
+    path: ''
+    type: gallery
+  values:
+    layout: default
+    author: "@someone"
+    image:
+    - "/uploads/gallery-1.jpg"
+    bg-color: green
+- scope:
+    path: ''
+    type: mediacoverage
+  values:
+    image:
+    - "/uploads/media-logo.jpg"
+- scope:
+    path: ''
+    type: product
+  values:
+    layout: product
+    bg-image: "/uploads/bg-3.jpg"
+    image:
+    - "/uploads/pic-1.jpg"
+    - "/uploads/pic-2.jpg"
+    seotags:
+    - You can put SEO tags here separated by coma
+    seodesc:
+    - You can put SEO desc here
+    address: Equity Tower, 18th floor, RT.5/RW.3, Senayan, Kby. Baru, Kota Jakarta
+      Selatan, Daerah Khusus Ibukota Jakarta 12190.
+    pricedesc: 'Not only we offer you the best hospitality as best as we could, but
+      also the experience that suits your needs. Pro tips: dont forget to check our
+      special deals in whats on section!'
+    price: Convert to object then filling the packages field and price.
+    featuresdesc: Curabitur condimentum ut tortor ut vulputate. Donec pellentesque
+      lorem lorem, in dictum ipsum dignissim vel. Vivamus condimentum ligula laoreet
+      nisi egestas eleifend. Aliquam in metus consectetur, efficitur mi in, consequat
+      leo. Sed feugiat risus eget congue tincidunt. Fusce sit amet sapien eu nulla
+      sagittis ornare. Duis erat felis, tempus a aliquam eget, molestie vulputate
+      sem. Etiam euismod id mi egestas pretium. Proin gravida tellus a tristique faucibus.
+      Phasellus at sagittis diam.
+    featureslist:
+    - 15 Private Office Rooms
+    - 12 Persons Meeting Room
+    - Cozy Lounge
+    video: "<iframe width='100%' height='600' src='https://www.youtube.com/embed/35iok_pqI6Q'
+      frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope;
+      picture-in-picture' allowfullscreen></iframe>"
+    mapcoordinate: <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15865.135203714744!2d106.8084354!3d-6.2262628!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf830686a95e909cf!2sFreeware+%2F+workwell+Suites+Equity+18+Sudirman+Coworking+Space+%26+Serviced+Office+(wellspaces)!5e0!3m2!1sen!2sid!4v1553237547798"
+      width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    photo:
+    - "/uploads/workwell-suites-SCBD.jpg"
+    - "/uploads/workwell-suites-SCBD.jpg"
+    - "/uploads/workwell-suites-SCBD.jpg"
+    - "/uploads/workwell-suites-SCBD.jpg"
+    - "/uploads/workwell-suites-SCBD.jpg"
+    - "/uploads/workwell-suites-SCBD.jpg"
+    - "/uploads/workwell-suites-SCBD.jpg"
+    - "/uploads/workwell-suites-SCBD.jpg"
+    - "/uploads/workwell-suites-SCBD.jpg"
+    - "/uploads/workwell-suites-SCBD.jpg"
+    - "/uploads/workwell-suites-SCBD.jpg"
+    - "/uploads/workwell-suites-SCBD.jpg"
+- scope:
+    path: ''
+    type: team
+  values:
+    image: "/your-team-profile-pic.jpeg"
+    position: Community Associate
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ''
+  values:
+    layout: default
+favicon: "/uploads/favicon.png"
+name: rocktokom.co
+tagname: The first coworking space and coliving operator in Jakarta, Indonesia.
+description: The first coworking space and coliving operator in Jakarta, Indonesia.
+  With strategic locations all over the capital city. We offer serviced office space
+  and residence/ apartment/ kost with inviting design, flexible environment and genuine
+  experience, for the thriving communities of business and professionals at any scale.
+logo: img/core-img/logo.png
+igid:
+igtoken:
+wa: "+62 813 1839 1205"
+fb: https://www.facebook.com/wellspaces.co/
+ig: https://www.instagram.com/wellspaces.co/
+twitter:
+youtube: https://www.youtube.com/channel/UCtnxjFATCgkZoFErnaf-6aA
+linkedin: https://www.linkedin.com/company/wellspaces-group/
+google_analytics:
+google_form_contact: http://bit.ly/wellspacesinquiryform
+homeyoutube: <iframe width="100%" height="420" src="https://www.youtube.com/embed/35iok_pqI6Q"
+  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>
+url: http://rocktokom.CO
+baseurl:
+permalink: "/:title/"
+version: v1.2.0
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+sass:
+  style: expanded
 gems:
 - jekyll-sitemap
 - jekyll-feed
-- jekyll-redirect-from
-- jekyll-seo-tag
-- jekyll-paginate
 exclude:
 - Gemfile
 - Gemfile.lock

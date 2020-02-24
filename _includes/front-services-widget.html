@@ -1,0 +1,48 @@
+<section class="new_arrivals_area section-padding-10 clearfix position-relative">
+  <img src="{{site.baseurl}}/img/core-img/shape-tri-blue.png" class="ornament position-absolute s4">
+  <div class="container-fluid pt-4 pt-sm-5 pt-4 mt-sm-5">
+      <div class="row">
+          <div class="col-12">
+              <div class="mb-50">
+                <h4>EXPLORE OUR BRAND SERVICES</h4>
+                <h2 class="display-3">WE'RE A LOCAL TEAM OF EXPERTS,<br>WITH GLOBAL BRAND VISIONS IN MIND.</h2>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="container-fluid pb-4 pb-sm-5 mb-4 mb-sm-5">
+      <div class="row">
+          <div class="col-12">
+              <div class="popular-products-slides front-services-slide owl-carousel">
+                    {% assign items = site.product limit:4 | sort:"date" | reverse %}
+                    {% for item in items %}
+                          {% if item.categories contains "parent" %}
+                          <!-- Single Product -->
+                          <!--<div class="single-product-wrapper d-flex flex-row">-->
+                          <div class="single-product-wrapper row ml-0 mr-0">
+                            <!-- Product Image -->
+                            <a href="{{site.baseurl}}/service/"  class="product-img col-lg-5 col-12 p-4">
+                              <img src="{{site.baseurl}}{{ item.image[0] }}" alt="">
+                            </a>
+                            <!-- Product Description -->
+                            <div class="product-description col-lg-7 col-12 p-4 pl-lg-0">
+                                <a href="{{site.baseurl}}/service/">
+                                    <h6>{{ item.title }}</h6>
+                                </a>
+                                <ul>
+                                  <li>{{item.branches[0]}}</li>
+                                  <li>{{item.branches[1]}}</li>
+                                  <li>{{item.branches[2]}}</li>
+                                  <li><a href="{{site.baseurl}}/service/">See more..</a></li>
+                                </ul>
+                            </div>
+                          </div>
+                          {% endif %}
+                    {% endfor %}
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+

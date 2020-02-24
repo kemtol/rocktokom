@@ -1,0 +1,35 @@
+<section id="sect-milestone" class="section-padding-10 clearfix pt-4 pt-sm-5 pb-4 pb-sm-5 mt-4 mt-sm-5 mb-4 mb-sm-5 ">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-12">
+              <div class="mb-50">
+                <h4>OUR MILESTONE</h4>
+                <h2 class="display-3">YEARS GONEBY. EVERY STEP WE EMBRACED<br>HAS LED US TO WHERE WE ARE NOW.</h2>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div style="background-image: url({{site.url}}{{page.milestone-image}});background-size:cover;background-position:center center">
+    <div class="container-fluid pt-5">
+        <div class="row">
+            <div class="col-3 col-md-2 p-sm-5" style="border-right: 2px solid yellow;">
+              <ul class="milestone-year">
+              {% assign years = page.milestones %}
+              {% for year in years %}
+                <li><a href="" class="strike" style="color:#fff">{{year[0]}}</a></li>
+              {% endfor %}
+              </ul>
+            </div>
+            <div class="col-9 col-md-10 col-lg-8 p-sm-5 milestone-description">
+              {% assign items = page.milestones %}
+              <ul class="milestone-desc">
+              {% for item in items %}
+                <li class="{{item[0]}} d-none"><div>{{item[1]}}</div></li>
+              {% endfor %}
+              </ul>
+            </div>
+        </div>
+    </div>
+  </div>
+</section>

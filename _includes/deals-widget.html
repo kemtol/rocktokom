@@ -1,0 +1,42 @@
+<section>
+    <div class="container-fluid mt-5 mb-5 pt-5 pb-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="mb-50">
+                    <h4>CHOP, CHOP, CHOP!</h4>
+                    <h2 class="display-3">GRAB OUR DEAL(S) NOW WHILE IT'S HOT!</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="popular-products-slides owl-carousel">
+                {% assign items = site.deals  | sort:"date" | reverse %}
+                {% for item in items %}
+                  <!-- Single Product -->
+                  <div class="single-product-wrapper p-4">
+                    <!-- Product Image -->
+                    <a href="{{site.baseurl}}{{item.permalink}}" class="d-block product-img">
+                        <img src="{{site.baseurl}}{{item.image}}" alt="">
+                        <!-- Hover Thumb -->
+                        <img class="hover-img" src="{{site.baseurl}}{{item.image}}" alt="">
+                    </a>
+                    <!-- Product Description -->
+                    <div class="product-description d-block w-100 h-100">
+                        <a href="{{site.baseurl}}{{ item.permalink }}">
+                            <h6>{{ item.title }}</h6>
+                            {% if item.start-from %}
+                              <strong class="d-block price-after" style="color:dodgerblue">{{item.start-from}}</strong>
+                            {% else %}
+                              <span class="d-block price-before" style="color:#ddd"><strike>{{item.price-before}}</strike></span>
+                              <strong class="d-block price-after" style="color:dodgerblue">{{item.price-after}}</strong>
+                            {% endif %}
+                        </a>
+                    </div>
+                  </div>
+                {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
