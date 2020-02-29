@@ -13,15 +13,14 @@
 
   <div class="container-fluid pb-4 pb-sm-5 mb-4 mb-sm-5">
       <div class="row">
-          <div class="col-12">
+          <!--<div class="col-12">-->
               <!--<div class="popular-products-slides front-services-slide owl-carousel">-->
-              <div class="popular-products-slides front-services-slide">
                     {% assign items = site.product limit:4 | sort:"date" | reverse %}
                     {% for item in items %}
                           {% if item.categories contains "parent" %}
                           <!-- Single Product -->
-                          <!--<div class="single-product-wrapper d-flex flex-row">-->
-                          <div class="single-product-wrapper row ml-0 mr-0">
+                          <!--<div class="single-product-wrapper row ml-0 mr-0">-->
+                          <div class="single-product-wrapper col-6">
                             <!-- Product Image -->
                             <a href="{{site.baseurl}}/service/"  class="product-img col-lg-5 col-12 p-4">
                               <img src="{{site.baseurl}}{{ item.image[0] }}" alt="">
@@ -41,8 +40,8 @@
                           </div>
                           {% endif %}
                     {% endfor %}
-              </div>
-          </div>
+              <!--</div>-->
+          <!--</div>-->
       </div>
   </div>
 </section>
