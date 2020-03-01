@@ -3,8 +3,8 @@ title: Redya Febriyanto
 date: 2019-03-20 17:47:00 +07:00
 categories:
 - alumni
+position: 0
 company: Telunjuk
-position: Startup Founder
 image: "/uploads/Redya.jpg"
 ---
 
