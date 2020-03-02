@@ -2,6 +2,7 @@
 title: ABOUT US
 date: 2018-08-31 16:49:00 +07:00
 permalink: "/about.html"
+published: false
 image: "/uploads/About%20Us.jpg"
 milestone-image: "/uploads/milestone-bg.jpg"
 milestone-description: 

@@ -3,8 +3,8 @@ title: Vinnie Lauria
 date: 2019-07-01 13:07:00 +07:00
 categories:
 - alumni
+position: 0
 company: Golden Gate Ventures
-position: Venture Capitalist
 image: "/uploads/Vinnie.jpg"
 ---
 

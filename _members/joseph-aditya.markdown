@@ -3,8 +3,8 @@ title: Joseph Aditya
 date: 2019-07-01 13:10:00 +07:00
 categories:
 - alumni
+position: 0
 company: Ralali
-position: Startup Founder
 image: "/uploads/JAditya.jpg"
 ---
 

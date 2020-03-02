@@ -4,8 +4,8 @@ date: 2019-03-20 17:37:00 +07:00
 categories:
 - alumni
 - speakers
+position: 0
 company: Fabelio
-position: Startup Founder
 image: "/uploads/CSutardi.jpg"
 ---
 
