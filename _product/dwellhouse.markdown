@@ -6,10 +6,10 @@ categories:
 - parent
 position: 3
 image:
-- "/uploads/Dwell%20360.jpg"
-- "/uploads/Dwell%20360.jpg"
+- "/uploads/gurkha_squad.jpg"
+- "/uploads/gurkha_squad.jpg"
 seotags:
-- dwell ,  the stay , coliving , kostan , kostan jakarta
+- IT, scrum, squad
 price:
   privatemonth: 5000000
 branches:
@@ -18,3 +18,4 @@ branches:
 - System Architect, Web Developer, Mobile Developer & Devops
 ---
 
+We are the Gurkha of development team, ready to deployed in any stages of product lifecycle. We deliver! 
