@@ -18,4 +18,4 @@ branches:
 - System Architect, Web Developer, Mobile Developer & Devops
 ---
 
-We are the Gurkha of development team, ready to deployed in any stages of product lifecycle. We deliver! 
+We are the Gurkha of development team, ready to deployed in any stages of product lifecycle. We deliver!
