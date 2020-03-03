@@ -1,5 +1,5 @@
 ---
-title: Co-living Houses
+title: Scrum Development Team
 date: 2018-12-22 12:53:00 +07:00
 permalink: "/product/dwell-co-living-house.html"
 categories:
@@ -13,8 +13,8 @@ seotags:
 price:
   privatemonth: 5000000
 branches:
-- dwell House Antasari
-- dwell Kemang Village (Soon!)
-- Studio Antasari (Soon!)
+- Agile
+- Business Analyst, UI/UX Engineer
+- System Architect, Web Developer, Mobile Developer & Devops
 ---
 
