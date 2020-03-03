@@ -456,7 +456,7 @@ footer{
 }
 
 .filtered-blue{
-  sepia(100%) hue-rotate(190deg) saturate(400%);
+  filter: sepia(100%) hue-rotate(190deg) saturate(400%);
 }
 
 /* Carousel */
